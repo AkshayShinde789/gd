@@ -75,6 +75,8 @@ Collapse:- ctrl+m+o
 //}
 //Coversion USing parse or tryparse method
 
+using gd;
+
 class program
 {
     static void Main()
@@ -105,48 +107,21 @@ class program
         //bool b=int.TryParse(a, out i);
 
 
-/*     Datatype         Default Value
+        /*     Datatype         Default Value
 
-        int                 0
-        double              0
-        bool               False
-        String              null
-        Array               null
-        class               null
+                int                 0
+                double              0
+                bool               False
+                String              null
+                Array               null
+                class               null
 
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        Console.WriteLine($"{b}  {i}");
-
-
+        */
+        SampleDemo demo = new SampleDemo();
+        demo.Calculator(10, 20);
 
 
         Console.ReadLine();
-
-
-
-
-
 
 
         //int i2 =(int)number;
